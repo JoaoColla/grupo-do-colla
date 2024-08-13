@@ -12,19 +12,56 @@ h1 {
     padding: 20px;
 }
 
+
+#super{
+height: 150px;
+}
+
 .item {
     width: 200px; /* Largura de cada item */
     text-align: center;
 }
 
 .item img {
-    width: 100%;
-    height: auto;
+    width:150;
+    height: 250px;
     display: block;
 }
 
 .item p {
     margin-top: 10px;
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
+}
+
+.item:hover {
+
+    scale: 1.05;
+
+}
+
+body {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+a {
+
+    color: red;
+
+}
+
+a:hover {
+
+    color: rgb(236, 93, 93);
+
+}
+
+#cabecaho{
+background-image: imagens/simpsons.jpeg>
+;
+
+
 }
