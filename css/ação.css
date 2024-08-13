@@ -13,10 +13,6 @@ h1 {
 }
 
 
-#super{
-height: 150px;
-}
-
 .item {
     width: 200px; /* Largura de cada item */
     text-align: center;
@@ -56,12 +52,5 @@ a {
 a:hover {
 
     color: rgb(236, 93, 93);
-
-}
-
-#cabecaho{
-background-image: imagens/simpsons.jpeg>
-;
-
 
 }
