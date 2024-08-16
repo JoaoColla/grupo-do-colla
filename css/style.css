@@ -21,8 +21,20 @@ a:hover {
 
 }
 
-#menu {
+header{
+    background-image: url(/imagens/filme\ pirata.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
 
-background-image: 
+    opacity: 0.7;
+    
 
 }
+
+#titulo {
+
+    text-align: center;
+
+}
+
