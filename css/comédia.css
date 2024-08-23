@@ -45,7 +45,7 @@ body {
 
 a {
 
-    color: red;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -57,7 +57,7 @@ a:hover {
 
 
 header{
-    background-image: url(/imagens/filme\ pirata.jpeg);
+    background-image: url(/imagens/simpsons.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;

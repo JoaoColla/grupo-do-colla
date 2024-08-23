@@ -45,19 +45,20 @@ body {
 
 a {
 
-    color: red;
+
+    color: rgb(255, 0, 0);
 
 }
 
 a:hover {
 
-    color: rgb(236, 93, 93);
+    color: rgb(255, 255, 255);
 
 }
 
 
 header{
-    background-image: url(/imagens/filme\ pirata.jpeg);
+    background-image: url(/imagens/ACAO.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
