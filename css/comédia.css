@@ -52,7 +52,7 @@ a {
 
 
 header{
-    background-image: url(/imagens/simpsons.jpeg);
+    background-image: url(/imagens/ACAO.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -156,7 +156,31 @@ button:active {
 
 .botao {
 
-  padding-left: 5%;
-  padding-right: 5%;
+  margin: 7px;
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+
+footer {
+
+  text-align: center;
+  background-color: rgb(56, 3, 3);
+  padding: 40px;
+  width: 100%;
+  font-size: 14px;
+
+}
+
+.contato {
+
+  font-size: 120%;
+  color: rgb(167, 85, 85);
+
+}
+
+.contato:hover {
+
+ color: rgb(255, 255, 255);
 
 }

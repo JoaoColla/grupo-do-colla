@@ -11,58 +11,31 @@ body {
 
 a {
 
-    color: rgb(148, 78, 78);
+    color: rgb(255, 255, 255);
 
 }
 
 
 header{
-    background-image: url(/imagens/branco.jpeg);
+    background-color: rgb(56, 3, 3);
     background-size: cover;
     background-position: center;
-    height: 450px;
-
+    padding: 30px;
     opacity: 0.7;
-    
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 
 }
 
 #titulo {
 
-    text-align: center;
+  padding: 125px;
+  text-align: center;
+  font-size: 20px;
 
 }
 
-.catalogo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    padding: 20px;
-}
-
-.item {
-    width: 200px; /* Largura de cada item */
-    text-align: center;
-}
-
-.item img {
-    width:150;
-    height: 250px;
-    display: block;
-}
-
-.item p {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #ffffff;
-}
-
-.item:hover {
-
-    scale: 1.05;
-
-}
 
 /* From Uiverse.io by mrhyddenn */ 
 button {
@@ -146,8 +119,70 @@ button {
 
 .botao {
 
-    padding-left: 5%;
-    padding-right: 5%;
+    margin: 7px;
+    padding-left: 4%;
+    padding-right: 4%;
 
 }
 
+#sobre {
+
+  text-align: center;
+  font-size: 17px;
+}
+
+h2 {
+
+  font-size: 45px;
+
+}
+
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.item {
+  width: 200px; /* Largura de cada item */
+  text-align: center;
+}
+
+.item img {
+  width:150;
+  height: 250px;
+  display: block;
+}
+
+.item p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+footer {
+
+  text-align: center;
+  background-color: rgb(56, 3, 3);
+  padding: 40px;
+  width: 100%;
+  font-size: 14px;
+
+}
+
+.contato {
+
+  font-size: 120%;
+  color: rgb(167, 85, 85);
+
+}
+
+.contato:hover {
+
+ color: rgb(255, 255, 255);
+
+}
