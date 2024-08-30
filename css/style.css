@@ -11,13 +11,13 @@ body {
 
 a {
 
-    color: rgb(38, 68, 240);
+    color: rgb(148, 78, 78);
 
 }
 
 
 header{
-    background-image: url(/imagens/filme\ pirata.jpeg);
+    background-image: url(/imagens/branco.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -69,7 +69,7 @@ button {
     position: relative;
     padding: 10px 20px;
     border-radius: 7px;
-    border: 1px solid rgb(61, 106, 255);
+    border: 1px solid rgb(255, 61, 61);
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
@@ -85,7 +85,7 @@ button {
   
   button:hover {
     background: rgb(255, 61, 61);
-    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    box-shadow: 0 0 30px 5px rgba(236, 0, 0, 0.815);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -150,3 +150,4 @@ button {
     padding-right: 5%;
 
 }
+
