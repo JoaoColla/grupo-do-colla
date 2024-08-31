@@ -52,7 +52,7 @@ a {
 
 
 header{
-    background-image: url(/imagens/ACAO.jpeg);
+    background-image: url(../imagens/ACAO.jpeg);
     background-size: cover;
     background-position: center;
     height: 450px;
